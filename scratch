@@ -1,0 +1,47 @@
+
+ParsedClass {
+  classVersion = (55,0),
+  classConstantPoolCount = 32, 
+  classConstantPoolInfo = fromList [(1,ConstantMethodRef 6 18)
+                                   ,(2,ConstantFieldRef 19 20)
+                                   ,(3,ConstantClass 21)
+                                   ,(4,ConstantString 22)
+                                   ,(5,ConstantMethodRef 23 24)
+                                   ,(6,ConstantClass 25)
+                                   ,(7,ConstantUtf8 "hello")
+                                   ,(8,ConstantUtf8 "Ljava/lang/String;")
+                                   ,(9,ConstantUtf8 "ConstantValue")
+                                   ,(10,ConstantUtf8 "<init>")
+                                   ,(11,ConstantUtf8 "()V")
+                                   ,(12,ConstantUtf8 "Code")
+                                   ,(13,ConstantUtf8 "LineNumberTable")
+                                   ,(14,ConstantUtf8 "main")
+                                   ,(15,ConstantUtf8 "([Ljava/lang/String;)V")
+                                   ,(16,ConstantUtf8 "SourceFile")
+                                   ,(17,ConstantUtf8 "Main.java")
+                                   ,(18,ConstantNameAndType 10 11)
+                                   ,(19,ConstantClass 26)
+                                   ,(20,ConstantNameAndType 27 28)
+                                   ,(21,ConstantUtf8 "Main")
+                                   ,(22,ConstantUtf8 "Hello world!")
+                                   ,(23,ConstantClass 29)
+                                   ,(24,ConstantNameAndType 30 31)
+                                   ,(25,ConstantUtf8 "java/lang/Object")
+                                   ,(26,ConstantUtf8 "java/lang/System")
+                                   ,(27,ConstantUtf8 "out")
+                                   ,(28,ConstantUtf8 "Ljava/io/PrintStream;")
+                                   ,(29,ConstantUtf8 "java/io/PrintStream")
+                                   ,(30,ConstantUtf8 "println")
+                                   ,(31,ConstantUtf8 "(Ljava/lang/String;)V")],
+  classAccessFlags = 33,
+  classThisClass = 3,
+  classSuperClass = 6,
+  classInterfacesCount = 0,
+  classInterfaces = [],
+  classFieldsCount = 1,
+  classFieldsInfo = [FieldInfo 26 7 8 1 [ConstantValueAttribute 9 2 4]],
+  classMethodsCount = 2,
+  classMethodsInfo = [MethodInfo 1 10 11 1 [CodeAttribute 12 29 1 1 5 "*\183\NUL\SOH\177" 0 [] 1 [LineNumberTableAttribute 13 6 1 [(0,1)]]],MethodInfo 9 14 15 1 [CodeAttribute 12 37 2 1 9 "\178\NUL\STX\DC2\EOT\182\NUL\ENQ\177" 0 [] 1 [LineNumberTableAttribute 13 10 2 [(0,4),(8,5)]]]],
+  classAttributesCount = 1,
+  classAttributesInfo = [SourceFileAttribute 16 2 17]
+}
