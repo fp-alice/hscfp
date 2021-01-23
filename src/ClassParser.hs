@@ -11,9 +11,6 @@ import           Internal.Attributes  (AttributeInfo (..), getAttributeInfo)
 -- | https://docs.oracle.com/javase/specs/jvms/se11/html/jvms-4.html#jvms-4.5
 data FieldInfo = FieldInfo Word16 Word16 Word16 Word16 [AttributeInfo] deriving (Show, Eq)
 
-x = do
-  y <- getW
-
 -- | Parser for fields
 getField :: ConstantPool -> Get FieldInfo
 getField pool = do
